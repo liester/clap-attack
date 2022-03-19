@@ -1,11 +1,11 @@
 {
-  "name": "chrome-extension-boilerplate-react",
-  "version": "4.3.5",
-  "description": "A chrome extension boilerplate built with React 17, Webpack 5, and Webpack Dev Server 4",
+  "name": "clap-attack",
+  "version": "1.0.0",
+  "description": "A chrome extension to clap as many times as possible on a medium article",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxieyang/chrome-extension-boilerplate-react.git"
+    "url": "https://github.com/liester/clap-attack.git"
   },
   "scripts": {
     "build": "node utils/build.js",
