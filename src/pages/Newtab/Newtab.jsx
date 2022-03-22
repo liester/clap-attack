@@ -20,6 +20,13 @@ const Newtab = () => {
           Learn React!
         </a>
         <h6>The color of this paragraph is defined using SASS.</h6>
+        <code>
+          {/*This is the good stuff.  It seems to make the "click" on clap do the thing.  Without the mouse up it just claps indefinitely*/}
+          var clickEvent = document.createEvent ('MouseEvents');
+          clickEvent.initEvent ('mousedown', true, true);
+          $0.dispatchEvent (clickEvent);
+          clickEvent.initEvent ('mouseup', true,
+        </code>
       </header>
     </div>
   );
