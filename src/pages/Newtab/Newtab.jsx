@@ -25,7 +25,8 @@ const Newtab = () => {
           var clickEvent = document.createEvent ('MouseEvents');
           clickEvent.initEvent ('mousedown', true, true);
           $0.dispatchEvent (clickEvent);
-          clickEvent.initEvent ('mouseup', true,
+          clickEvent.initEvent ('mouseup', true,true);
+          $0.dispatchEvent (clickEvent);
         </code>
       </header>
     </div>
